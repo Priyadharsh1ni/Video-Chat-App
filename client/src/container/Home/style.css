@@ -1,0 +1,55 @@
+.Home-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.Home-page-container h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.Home-page-content{
+    padding: 20px;
+    width: 40%
+}
+
+.Home-page-image{
+    width: 50%;
+}
+
+.Home-page-sub-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 80%;
+    border: 1px solid #eeedfe;
+    border-radius: 10px;
+}
+
+.input-box{
+    width: 100%;
+    border: 1px solid #eeedfe;
+    padding: 10px;
+    background: #eeedfe;
+    border-radius: 10px;
+}
+
+.Home-page-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.Join-button{
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #eeedff;
+    background: #eeedff;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
